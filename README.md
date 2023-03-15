@@ -253,8 +253,6 @@ public class FrontendDeveloper {
 We could then use both of those classes in a `TechnicalProject` class like this:
 
 ```java
-package com.flatiron.dip;
-
 public class TechnicalProject {
     private BackendDeveloper backendDev = new BackendDeveloper();
     private FrontendDeveloper frontendDev = new FrontendDeveloper();
@@ -282,7 +280,7 @@ public class TechnicalProjectDriver {
 
 Running this code gives us the following output:
 
-```plaintext
+```text
 Writing code in Java
 Writing code in Javascript
 ```
@@ -373,7 +371,7 @@ At this point, we have created a different version of the code we had before
 that was able to start delivery of a project by writing Java and Javascript
 code, so running this new version yields the exact same output as before:
 
-```plaintext
+```text
 Writing code in Java
 Writing code in Javascript
 ```
@@ -426,7 +424,7 @@ public class TechnicalProjectDriver {
 
 With these changes, we now get the following output:
 
-```plaintext
+```text
 Writing code in Python
 Writing code for Android
 ```
